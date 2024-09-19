@@ -25,20 +25,28 @@ const Sidebar = () => {
                     <Link to="/" className="hover:text-gray-200">Inicio</Link>
                 </li>
                 <li className='mb-4 flex items-center'>
-                <i class='pi pi-list-check mr-3'></i>
+                <i className='pi pi-list-check mr-3'></i>
                     <Link to="/clasificaciones" className="hover:text-gray-200">Clasificaciones</Link>
                 </li>
                 <li className='mb-4 flex items-center'>
-                <i class='pi pi-play-circle mr-3'></i>
+                <i className='pi pi-play-circle mr-3'></i>
                     <Link to="/contenidos" className="hover:text-gray-200">Peliculas</Link>
                 </li>
                 <li className='mb-4 flex items-center'>
-                <i class='pi pi-heart mr-3'></i>
+                <i className='pi pi-heart mr-3'></i>
                     <Link to="/favoritos" className="hover:text-gray-200">Favoritos</Link>
                 </li>
                 <li className='mb-4 flex items-center'>
-                <i class='pi pi-comments mr-3'></i>
+                <i className='pi pi-comments mr-3'></i>
                     <Link to="/comentarios" className="hover:text-gray-200">Comentarios</Link>
+                </li>
+                <li className='mb-4 flex items-center'>
+                <i className='pi pi-comments mr-3'></i>
+                    <Link to="/login" className="hover:text-gray-200">Iniciar Sesion</Link>
+                </li>
+                <li className='mb-4 flex items-center'>
+                <i className='pi pi-comments mr-3'></i>
+                    <Link to="/register" className="hover:text-gray-200">Registrarse</Link>
                 </li>
             </ul>    
         </div>

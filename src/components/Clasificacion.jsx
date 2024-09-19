@@ -139,7 +139,7 @@ export default function Clasificacion() {
                   setClasificacion(emptyClasificacion);
                   toast.current.show({ severity: 'error', summary: 'Error', detail: message, life: 3000 });
               } else {
-  
+                console.log(error);
            }
        
         }        

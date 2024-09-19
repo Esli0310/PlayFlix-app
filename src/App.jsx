@@ -7,7 +7,9 @@ import React from 'react';
 import Clasificacion from './components/Clasificacion'
 import Contenido from './components/Contenido.jsx'
 import Comentario from './components/Comentario.jsx'
-import Favorito from './components/Favorito.jsx'
+import Favorito from './components/Favorito'
+import Login from './components/auth/Login'
+import Register from './components/auth/Register'
 import './App.css'
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
                     <Route path="/contenidos" element={<Contenido />} />
                     <Route path="/favoritos" element={<Favorito />} />
                     <Route path="/comentarios" element={<Comentario />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/register" element={<Register />} />
                   </Routes>
               </div>
               <Footer />
